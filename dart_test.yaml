@@ -1,0 +1,4 @@
+tags:
+  demo:
+    # The demo-GIF generator is skipped in normal runs. Use tool/make_demo.sh.
+    skip: "Run through tool/make_demo.sh (flutter test --run-skipped -t demo)"

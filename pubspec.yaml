@@ -1,0 +1,36 @@
+name: indexed_sliver_list
+description: "Jump or animate to any index of a lazily built list with variable item heights. A real sliver that works in CustomScrollView with a normal ScrollController."
+version: 0.0.1
+homepage: https://github.com/Rishav1995-roy/indexed_sliver_list
+repository: https://github.com/Rishav1995-roy/indexed_sliver_list
+issue_tracker: https://github.com/Rishav1995-roy/indexed_sliver_list/issues
+
+topics:
+  - scroll
+  - list
+  - sliver
+  - scroll-to-index
+  - chat
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ">=5.0.0 <7.0.0"
+
+screenshots:
+  - description: Jumping and animating to far indexes in a list of mixed-height cards, then a reversed chat list.
+    path: doc/demo.gif
+  - description: Feed with 5000 variable-height cards inside a CustomScrollView (light).
+    path: doc/screenshot_feed_light.png
+  - description: Reversed chat list jumping to a far message (dark).
+    path: doc/screenshot_chat_dark.png
+  - description: Customize tab - alignment, estimate, separators, axis and theme.
+    path: doc/screenshot_customize.png
