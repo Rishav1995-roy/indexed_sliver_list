@@ -5,6 +5,7 @@
 //     out everything before them (flutter#52207, flutter.widgets #310);
 //  3. a visible-items listener;
 //  4. reverse lists (chat) that keep their place when items are inserted.
+// ignore: deprecated_member_use
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:indexed_sliver_list/indexed_sliver_list.dart';
